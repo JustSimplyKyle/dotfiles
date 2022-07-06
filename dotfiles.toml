@@ -1,3 +1,4 @@
 symlinks = [
   ".config/sway",
+  ".config/nvim",
 ]
