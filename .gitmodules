@@ -1,0 +1,3 @@
+[submodule "home/.config/nvim/lsp_signature.nvim"]
+	path = home/.config/nvim/lsp_signature.nvim
+	url = https://github.com/ray-x/lsp_signature.nvim
