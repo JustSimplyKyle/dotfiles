@@ -1,0 +1,53 @@
+patch:
+  translator/enable_completion: true  #打開逐碼提示碼
+  "switches/@2/reset": 1  #反查開關 (0為關閉，1為開啟)
+  key_binder:
+    import_preset: default
+    bindings:
+      - {accept: "Control+space", select: colemak, when: always}
+      - {accept: e, send: f, when: always}
+      - {accept: r, send: p, when: always}
+      - {accept: t, send: g, when: always}
+      - {accept: y, send: j, when: always}
+      - {accept: u, send: l, when: always}
+      - {accept: i, send: u, when: always}
+      - {accept: o, send: y, when: always}
+      - {accept: p, send: ';', when: always}
+      - {accept: s, send: r, when: always}
+      - {accept: d, send: s, when: always}
+      - {accept: f, send: t, when: always}
+      - {accept: g, send: d, when: always}
+      - {accept: j, send: n, when: always}
+      - {accept: k, send: e, when: always}
+      - {accept: l, send: i, when: always}
+      - {accept: ';', send: o, when: always}
+      - {accept: n, send: k, when: always}
+      - {accept: E, send: F, when: always}
+      - {accept: R, send: P, when: always}
+      - {accept: T, send: G, when: always}
+      - {accept: Y, send: J, when: always}
+      - {accept: U, send: L, when: always}
+      - {accept: I, send: U, when: always}
+      - {accept: O, send: Y, when: always}
+      - {accept: P, send: ';', when: always}
+      - {accept: S, send: R, when: always}
+      - {accept: D, send: S, when: always}
+      - {accept: F, send: T, when: always}
+      - {accept: G, send: D, when: always}
+      - {accept: J, send: N, when: always}
+      - {accept: K, send: E, when: always}
+      - {accept: L, send: I, when: always}
+      - {accept: ':', send: O, when: always}
+      - {accept: N, send: K, when: always}
+      # Swap UpDownLeftRight
+      - {when: composing, accept: Left, send: Up}
+      - {when: composing, accept: Right, send: Down}
+      - {when: composing, accept: Up, send: Page_Up}
+      - {when: composing, accept: Down, send: Page_Down}
+      # buffer navigation keys
+      - {when: composing, accept: bracketleft, send: Up }
+      - {when: composing, accept: bracketright, send: Down }
+      - {when: has_menu, accept: comma, send: comma }      
+      - {when: has_menu, accept: period, send: period }
+      - {when: has_menu, accept: equal, send: equal }
+      - { accept: "Control+apostrophe", toggle: liu_w2c, when: always }
