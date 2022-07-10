@@ -4,4 +4,5 @@ symlinks = [
   ".zshrc",
   ".zimrc",
   ".zprofile",
+  ".config/wezterm",
 ]
