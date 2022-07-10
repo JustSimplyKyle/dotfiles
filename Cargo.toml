@@ -1,0 +1,12 @@
+[package]
+name = "dotfiles"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+glob = "0.3.0"
+toml = "0.5.8"
+serde = { version = "1.0.130", features = ["derive"] }
+home = "0.5.3"
+clap = "2.34.0"
+termion = "1.5.6"
