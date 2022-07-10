@@ -9,5 +9,5 @@
 *.log.*
 *.sig
 
-src/
 target/
+dotfiles/
