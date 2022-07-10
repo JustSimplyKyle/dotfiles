@@ -1,0 +1,66 @@
+# Start configuration added by Zim install {{{
+#
+# This is not sourced during shell startup, and it's only used to configure the
+# zimfw plugin manager.
+#
+
+#
+# Modules
+#
+
+# Sets sane Zsh built-in environment options.
+zmodule environment
+# Provides handy git aliases and functions.
+zmodule git
+# Applies correct bindkeys for input events.
+zmodule input
+# Sets a custom terminal title.
+zmodule termtitle
+# Utility aliases and functions. Adds colour to ls, grep and less.
+zmodule utility
+
+#
+# Prompt
+#
+
+# Exposes to prompts how long the last command took to execute, used by asciiship.
+zmodule duration-info
+# Exposes git repository status information to prompts, used by asciiship.
+zmodule git-info
+# A heavily reduced, ASCII-only version of the Spaceship and Starship prompts.
+
+#
+# Completion
+#
+
+# Modules that must be initialized last
+#
+
+# Fish-like syntax highlighting for Zsh.
+# Fish-like history search (up arrow) for Zsh.
+# zsh-users/zsh-history-substring-search must be sourced after zsh-users/zsh-syntax-highlighting
+# }}} End configuration added by Zim install
+
+# Theme
+zmodule ohmyzsh/ohmyzsh -f 'themes' -s 'themes/gnzh.zsh-theme'
+zmodule ohmyzsh/ohmyzsh -f 'lib' -s 'lib/git.zsh'
+zmodule ohmyzsh/ohmyzsh -f 'lib' -s 'lib/prompt_info_functions.zsh'
+#zmodule spaceship-prompt/spaceship-prompt --name spaceship --no-submodules
+
+# Oh-My-Zsh plugins
+zmodule ohmyzsh/ohmyzsh -f 'plugins' -s 'plugins/colored-man-pages'
+
+# Auto complete
+zmodule hlissner/zsh-autopair
+zmodule z-shell/F-Sy-H
+zmodule zsh-users/zsh-completions --fpath src
+zmodule zsh-users/zsh-autosuggestions
+zmodule zsh-users/zsh-history-substring-search
+zmodule completion
+# Other stuff
+zmodule fzf
+zmodule pacman
+zmodule archive
+zmodule environment
+# exa!
+zmodule exa
