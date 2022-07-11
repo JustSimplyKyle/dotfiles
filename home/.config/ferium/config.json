@@ -1,0 +1,551 @@
+{
+  "active_profile": 0,
+  "active_modpack": 0,
+  "profiles": [
+    {
+      "name": "1.18.2",
+      "output_dir": "/home/kyle/.local/share/polymc/instances/1.18.2/.minecraft/mods",
+      "game_version": "1.18.2",
+      "mod_loader": "Quilt",
+      "mods": [
+        {
+          "name": "'Slight' Gui Modifications",
+          "identifier": {
+            "ModrinthProject": "O7JVMrQX"
+          }
+        },
+        {
+          "name": "Accurate Block Placement",
+          "identifier": {
+            "CurseForgeProject": 323316
+          }
+        },
+        {
+          "name": "Alternate Current",
+          "identifier": {
+            "ModrinthProject": "r0v8vy1s"
+          }
+        },
+        {
+          "name": "AntiGhost",
+          "identifier": {
+            "ModrinthProject": "Jw3Wx1KR"
+          }
+        },
+        {
+          "name": "AntiIgnoringChunk",
+          "identifier": {
+            "ModrinthProject": "SpQWQ4KX"
+          }
+        },
+        {
+          "name": "Architectury API",
+          "identifier": {
+            "ModrinthProject": "lhGA9TYQ"
+          }
+        },
+        {
+          "name": "bad packets",
+          "identifier": {
+            "ModrinthProject": "ftdbN0KK"
+          }
+        },
+        {
+          "name": "BadStdOut",
+          "identifier": {
+            "ModrinthProject": "9Y8sMRVG"
+          }
+        },
+        {
+          "name": "Bedrodium",
+          "identifier": {
+            "ModrinthProject": "5roWs6VO"
+          }
+        },
+        {
+          "name": "Big items, duh!",
+          "identifier": {
+            "ModrinthProject": "W3k8Z0Vz"
+          }
+        },
+        {
+          "name": "Blanket",
+          "identifier": {
+            "ModrinthProject": "gxpkKtVH"
+          }
+        },
+        {
+          "name": "Block Event Separator",
+          "identifier": {
+            "ModrinthProject": "GNj1KeF1"
+          }
+        },
+        {
+          "name": "Blur (Fabric)",
+          "identifier": {
+            "ModrinthProject": "NK39zBp2"
+          }
+        },
+        {
+          "name": "Charmonium",
+          "identifier": {
+            "ModrinthProject": "bpii4Xsa"
+          }
+        },
+        {
+          "name": "Chime",
+          "identifier": {
+            "ModrinthProject": "ubxU84eR"
+          }
+        },
+        {
+          "name": "Chunky Pregenerator",
+          "identifier": {
+            "ModrinthProject": "fALzjamp"
+          }
+        },
+        {
+          "name": "CIT Resewn",
+          "identifier": {
+            "ModrinthProject": "otVJckYQ"
+          }
+        },
+        {
+          "name": "Clean Logs",
+          "identifier": {
+            "ModrinthProject": "OTteoJUk"
+          }
+        },
+        {
+          "name": "Cloth API (Fabric)",
+          "identifier": {
+            "CurseForgeProject": 317121
+          }
+        },
+        {
+          "name": "Cloth Config API",
+          "identifier": {
+            "ModrinthProject": "9s6osm5g"
+          }
+        },
+        {
+          "name": "CompleteConfig",
+          "identifier": {
+            "ModrinthProject": "GtqG8z1h"
+          }
+        },
+        {
+          "name": "Concurrent Chunk Management Engine (Fabric)",
+          "identifier": {
+            "ModrinthProject": "VSNURh3q"
+          }
+        },
+        {
+          "name": "Continuity",
+          "identifier": {
+            "ModrinthProject": "1IjD5062"
+          }
+        },
+        {
+          "name": "Crafty-Crashes",
+          "identifier": {
+            "GitHubRepository": [
+              "Chocohead",
+              "Crafty-Crashes"
+            ]
+          },
+          "check_game_version": false,
+          "check_mod_loader": false
+        },
+        {
+          "name": "Critical Orientation",
+          "identifier": {
+            "ModrinthProject": "AFqV4ew3"
+          }
+        },
+        {
+          "name": "Cull Less Leaves",
+          "identifier": {
+            "ModrinthProject": "iG6ZHsUV"
+          }
+        },
+        {
+          "name": "Custom Entity Models",
+          "identifier": {
+            "ModrinthProject": "YOQCucah"
+          }
+        },
+        {
+          "name": "DashLoader",
+          "identifier": {
+            "ModrinthProject": "ZfQ3kTvR"
+          }
+        },
+        {
+          "name": "Debugify",
+          "identifier": {
+            "ModrinthProject": "QwxR6Gcd"
+          }
+        },
+        {
+          "name": "Dynamic View[Fabric]",
+          "identifier": {
+            "CurseForgeProject": 629392
+          }
+        },
+        {
+          "name": "EMI",
+          "identifier": {
+            "ModrinthProject": "fRiHVvU7"
+          }
+        },
+        {
+          "name": "Enhanced Block Entities",
+          "identifier": {
+            "ModrinthProject": "OVuFYfre"
+          }
+        },
+        {
+          "name": "Entity Texture Features [Fabric]",
+          "identifier": {
+            "ModrinthProject": "BVzZfTc1"
+          }
+        },
+        {
+          "name": "EntityCulling",
+          "identifier": {
+            "ModrinthProject": "NNAgCjsB"
+          }
+        },
+        {
+          "name": "fabric-carpet",
+          "identifier": {
+            "GitHubRepository": [
+              "gnembon",
+              "fabric-carpet"
+            ]
+          }
+        },
+        {
+          "name": "Fabrishot",
+          "identifier": {
+            "ModrinthProject": "3qsfQtE9"
+          }
+        },
+        {
+          "name": "Farsight [Fabric]",
+          "identifier": {
+            "CurseForgeProject": 579192
+          }
+        },
+        {
+          "name": "Fastload",
+          "identifier": {
+            "ModrinthProject": "kCpssoSb"
+          }
+        },
+        {
+          "name": "FastOpenLinksAndFolders",
+          "identifier": {
+            "CurseForgeProject": 513840
+          }
+        },
+        {
+          "name": "FerriteCore",
+          "identifier": {
+            "ModrinthProject": "uXXizFIs"
+          }
+        },
+        {
+          "name": "ForgetMeChunk",
+          "identifier": {
+            "ModrinthProject": "vRXn3MrA"
+          }
+        },
+        {
+          "name": "FTB Library (Fabric)",
+          "identifier": {
+            "CurseForgeProject": 438495
+          }
+        },
+        {
+          "name": "FTB Ultimine (Fabric)",
+          "identifier": {
+            "CurseForgeProject": 448231
+          }
+        },
+        {
+          "name": "GrassKiss",
+          "identifier": {
+            "ModrinthProject": "KelLCoVr"
+          }
+        },
+        {
+          "name": "HealthCare",
+          "identifier": {
+            "ModrinthProject": "NNqujQWr"
+          }
+        },
+        {
+          "name": "Idwtialsimmoedm",
+          "identifier": {
+            "ModrinthProject": "ad89WlWh"
+          }
+        },
+        {
+          "name": "Indium",
+          "identifier": {
+            "ModrinthProject": "Orvt0mRa"
+          }
+        },
+        {
+          "name": "Inspecio",
+          "identifier": {
+            "ModrinthProject": "a93H3mKU"
+          }
+        },
+        {
+          "name": "Inventory Profiles Next",
+          "identifier": {
+            "ModrinthProject": "O7RBXm3n"
+          }
+        },
+        {
+          "name": "Iris Shaders",
+          "identifier": {
+            "ModrinthProject": "YL57xq9U"
+          }
+        },
+        {
+          "name": "Jade 🔍",
+          "identifier": {
+            "CurseForgeProject": 324717
+          }
+        },
+        {
+          "name": "Krypton",
+          "identifier": {
+            "ModrinthProject": "fQEb0iXm"
+          }
+        },
+        {
+          "name": "LambdaBetterGrass",
+          "identifier": {
+            "ModrinthProject": "2Uev7LdA"
+          }
+        },
+        {
+          "name": "Language Reload",
+          "identifier": {
+            "ModrinthProject": "uLbm7CG6"
+          }
+        },
+        {
+          "name": "lazy-language-loader",
+          "identifier": {
+            "ModrinthProject": "Nz0RSWrF"
+          }
+        },
+        {
+          "name": "LazyDFU",
+          "identifier": {
+            "ModrinthProject": "hvFnDODi"
+          }
+        },
+        {
+          "name": "Lightest Lamps (Fabric/Quilt)",
+          "identifier": {
+            "CurseForgeProject": 533661
+          }
+        },
+        {
+          "name": "Lithium",
+          "identifier": {
+            "ModrinthProject": "gvQqBUqZ"
+          }
+        },
+        {
+          "name": "Mc122477Fix",
+          "identifier": {
+            "ModrinthProject": "4JeObIue"
+          },
+          "check_game_version": false
+        },
+        {
+          "name": "Memory Leak Fix",
+          "identifier": {
+            "ModrinthProject": "NRjRiSSD"
+          }
+        },
+        {
+          "name": "MidnightLib",
+          "identifier": {
+            "ModrinthProject": "codAaoxh"
+          }
+        },
+        {
+          "name": "MixinTrace",
+          "identifier": {
+            "ModrinthProject": "sGmHWmeL"
+          }
+        },
+        {
+          "name": "Mod Menu",
+          "identifier": {
+            "ModrinthProject": "mOgUt4GM"
+          }
+        },
+        {
+          "name": "Mod-erate Loading Screen",
+          "identifier": {
+            "ModrinthProject": "RCjGlCDj"
+          }
+        },
+        {
+          "name": "More Music",
+          "identifier": {
+            "ModrinthProject": "dGBEUH8l"
+          }
+        },
+        {
+          "name": "No Resource Pack Warnings",
+          "identifier": {
+            "ModrinthProject": "6xKUDQcB"
+          }
+        },
+        {
+          "name": "Not Enough Animations",
+          "identifier": {
+            "ModrinthProject": "MPCX6s5C"
+          }
+        },
+        {
+          "name": "OneBar",
+          "identifier": {
+            "ModrinthProject": "xRMD6Oai"
+          }
+        },
+        {
+          "name": "Pehkui",
+          "identifier": {
+            "ModrinthProject": "t5W7Jfwy"
+          }
+        },
+        {
+          "name": "Presence Footsteps",
+          "identifier": {
+            "ModrinthProject": "rcTfTZr3"
+          }
+        },
+        {
+          "name": "Quilted Fabric API / Quilt Standard Libraries",
+          "identifier": {
+            "ModrinthProject": "qvIfYCYJ"
+          }
+        },
+        {
+          "name": "raknetify",
+          "identifier": {
+            "GitHubRepository": [
+              "RelativityMC",
+              "raknetify"
+            ]
+          },
+          "check_game_version": false
+        },
+        {
+          "name": "Reese's Sodium Options",
+          "identifier": {
+            "ModrinthProject": "Bh37bMuy"
+          }
+        },
+        {
+          "name": "resetchunks",
+          "identifier": {
+            "ModrinthProject": "jGWcsOfJ"
+          }
+        },
+        {
+          "name": "Right-Click-Harvest",
+          "identifier": {
+            "ModrinthProject": "xQgFileM"
+          }
+        },
+        {
+          "name": "Screenshot to Clipboard",
+          "identifier": {
+            "ModrinthProject": "1KiJRrTg"
+          }
+        },
+        {
+          "name": "Semitranslucency Fix",
+          "identifier": {
+            "ModrinthProject": "xp45cyDI"
+          }
+        },
+        {
+          "name": "Smooth Swapping",
+          "identifier": {
+            "ModrinthProject": "ydZic5r4"
+          },
+          "check_game_version": false
+        },
+        {
+          "name": "Sodium",
+          "identifier": {
+            "ModrinthProject": "AANobbMI"
+          }
+        },
+        {
+          "name": "spark",
+          "identifier": {
+            "ModrinthProject": "l6YH9Als"
+          }
+        },
+        {
+          "name": "Starlight (Fabric)",
+          "identifier": {
+            "ModrinthProject": "H8CaAYZC"
+          }
+        },
+        {
+          "name": "ToolTipFix",
+          "identifier": {
+            "CurseForgeProject": 411557
+          }
+        },
+        {
+          "name": "Very Many Players (Fabric)",
+          "identifier": {
+            "ModrinthProject": "wnEe9KBa"
+          }
+        },
+        {
+          "name": "Visuality",
+          "identifier": {
+            "ModrinthProject": "rI0hvYcd"
+          }
+        },
+        {
+          "name": "WMITAF",
+          "identifier": {
+            "ModrinthProject": "mk6pNnsq"
+          }
+        },
+        {
+          "name": "Xaero's Minimap",
+          "identifier": {
+            "CurseForgeProject": 263420
+          }
+        },
+        {
+          "name": "Xaero's World Map",
+          "identifier": {
+            "CurseForgeProject": 317780
+          }
+        }
+      ]
+    }
+  ],
+  "modpacks": []
+}
