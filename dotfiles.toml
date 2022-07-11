@@ -5,6 +5,7 @@ symlinks = [
   ".config/systemd/user/googledrive.service",
   ".config/systemd/user/onedrive.service",
   ".config/systemd/user/wallpaper.service",
+  ".config/mpv",
   ".zshrc",
   ".zimrc",
   ".zprofile",
