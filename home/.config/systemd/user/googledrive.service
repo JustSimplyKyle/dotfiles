@@ -1,0 +1,8 @@
+[Unit]
+Description=Google Drive
+
+[Service]
+ExecStart=/usr/bin/rclone mount googledrive: /home/kyle/googledrive --vfs-cache-mode full
+
+[Install]
+WantedBy=default.target

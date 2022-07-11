@@ -1,0 +1,8 @@
+[Unit]
+Description=OneDrive
+
+[Service]
+ExecStart=/usr/bin/rclone mount onedrive: /home/kyle/onedrive --vfs-cache-mode full
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,13 @@
+[Unit]
+Description=Bing Wallpaper
+After=network-online.target
+
+[Service]
+Restart=on-failure
+RestartSec=3
+ExecStart=/home/kyle/.config/wallpaper/nsfw.sh
+
+[Install]
+WantedBy=default.target
+WantedBy=network-online.target
+
