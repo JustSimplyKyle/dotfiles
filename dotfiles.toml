@@ -6,6 +6,7 @@ symlinks = [
   ".config/systemd/user/onedrive.service",
   ".config/systemd/user/wallpaper.service",
   ".config/mpv",
+  ".config/ferium/config.json",
   ".zshrc",
   ".zimrc",
   ".zprofile",
