@@ -106,7 +106,7 @@ font Noto Sans CJK TC Medium 11
     # Start a terminal
     bindsym $mod+Return exec $term
     # New screenshot
-    bindsym $mod+Shift+v exec systemctl restart --user bingwallpaper.service
+    bindsym $mod+Shift+v exec systemctl restart --user wallpaper.service
     # ScreenShot
     bindsym $mod+Shift+d exec grim -g "$(slurp)" - | wl-copy
     bindsym $mod+Shift+s exec /home/kyle/screenshot.sh 

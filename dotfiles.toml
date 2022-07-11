@@ -1,6 +1,7 @@
 symlinks = [
   ".config/sway",
   ".config/nvim",
+  ".config/wallpaper",
   ".zshrc",
   ".zimrc",
   ".zprofile",
