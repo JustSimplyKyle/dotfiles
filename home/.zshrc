@@ -133,6 +133,7 @@ unset key
 alias aurpush='makepkg --printsrcinfo >| .SRCINFO;git commit -a --allow-empty; git push'
 alias shapush='updpkgsums; makepkg --printsrcinfo >| .SRCINFO; git commit -a --allow-empty; git push'
 alias update-system="sudo pacman -Sy && sudo powerpill -Su && paru -Su"
+alias lg='lazygit'
 # Fix input keys
 bindkey '^[[127;5u'      backward-kill-word            # ctrl+bs    delete previous word
 bindkey '^[[3;5~' kill-word                     # ctrl+del   delete next word
