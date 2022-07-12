@@ -9,6 +9,7 @@ symlinks = [
   ".config/ferium/config.json",
   ".zshrc",
   ".zimrc",
+  "screenshot.sh",
   ".zprofile",
   ".config/wezterm",
 ]
